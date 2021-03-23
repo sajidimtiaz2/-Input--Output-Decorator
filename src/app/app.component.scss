@@ -1,0 +1,31 @@
+.main {
+  display: flex;
+ // background-color: rgb(73, 73, 73);
+ border: solid 2px black;
+  padding: 20px 20px;
+ // color: rgb(8, 8, 8);
+ justify-content: space-around;
+
+ .discription {
+   background-color: cadetblue;
+ }
+
+  .parent-container {
+    background-color: cadetblue;
+    padding: 20px;
+
+    .child-value {
+      border: solid 2px rgb(165, 165, 165);
+      margin: 20px;
+      background-color: rgb(165, 165, 165);
+      height: 20px;
+    }
+  }
+
+  .child-container  {
+    background-color: rgb(142, 233, 236);
+    padding: 20px;
+  }
+}
+
+
